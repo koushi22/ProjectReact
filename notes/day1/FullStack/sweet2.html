@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweet Treats Bakery</title>
+    <style>
+        /* Enable smooth scrolling */
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Georgia', serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fdf3e7; /* Pastel peach */
+            color: #333;
+        }
+
+        header {
+            background-color: #ffd1dc; /* Pastel pink */
+            text-align: center;
+            padding: 2rem 1rem;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 3rem;
+            color: #663300;
+        }
+
+        header p {
+            font-style: italic;
+            color: #804000;
+        }
+
+        nav {
+            background-color: #ffddb5; /* Pastel cream */
+            padding: 0.5rem;
+            text-align: center;
+        }
+
+        nav a {
+            color: #663300;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-weight: bold;
+            transition: color 0.3s ease-in-out;
+        }
+
+        nav a:hover {
+            color: #333;
+        }
+
+        main {
+            padding: 1.5rem;
+            background-color: #ffffff; /* White with slight opacity */
+            margin: 1rem auto;
+            width: 90%;
+            max-width: 1200px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        section {
+            margin-bottom: 2rem;
+        }
+
+        .menu-item {
+            margin-bottom: 2rem;
+            text-align: center;
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        }
+
+        .menu-item:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .menu-item img {
+            width: 250px;
+            height: auto;
+            display: block;
+            margin: 0.5rem auto;
+            border-radius: 10px;
+        }
+
+        footer {
+            background-color: #ffd1dc; /* Pastel pink */
+            text-align: center;
+            padding: 1rem;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sweet Treats Bakery</h1>
+        <p>Serving taste buds in a right way since 1993</p>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about-us">About Us</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact-us">Contact Us</a>
+    </nav>
+    <main>
+        <section id="about-us">
+            <h2>About Us</h2>
+            <p>Welcome to Sweet Treats, where happiness is baked into every bite. For over two decades, our family-run bakery has been creating classic favorites and modern delights to bring smiles to our customers.</p>
+        </section>
+        <section id="menu">
+            <h2>Our Menu</h2>
+            <div class="menu-item">
+                <h3>Strawberry Cheesecake</h3>
+                <img src="https://cdn.scrambledchefs.com/wp-content/uploads/2021/02/No-Bake-Strawberry-Cheesecake-9.jpg" alt="Strawberry Cheesecake">
+                <p>A creamy cheesecake layered with fresh strawberries and a buttery graham cracker crust.</p>
+            </div>
+            <div class="menu-item">
+                <h3>Triple Chocolate Brownies</h3>
+                <img src="https://tse4.mm.bing.net/th?id=OIP.Yg0XX2s76ebdHwDsBz5togHaLH&pid=Api&P=0&h=180" alt="Triple Chocolate Brownies">
+                <p>Fudgy brownies loaded with dark, milk, and white chocolate chunks.</p>
+            </div>
+            <div class="menu-item">
+                <h3>Almond Croissants</h3>
+                <img src="https://tse2.mm.bing.net/th?id=OIP.wveKJyxLFg3_2AQlifjAOgHaJQ&pid=Api&P=0&h=180" alt="Almond Croissants">
+                <p>Flaky croissants filled with almond cream and topped with powdered sugar.</p>
+            </div>
+        </section>
+        <section id="contact-us">
+            <h2>Contact Us</h2>
+            <p>Email: sweetreats@gmail.com</p>
+            <p>Phone: 9025904414</p>
+            <p>Address: Abc12 Bakery Street, Foodie Street</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Sweet Treats Bakery. All rights reserved.</p>
+    </footer>
+</body>
+</html>
